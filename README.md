@@ -1,88 +1,52 @@
 # AI-Agent Security and Trustworthy AI Project Portfolio
 
-This repository is a research-oriented portfolio focused on trustworthy AI, AI-agent security, secure autonomous systems, and applied machine learning.
+This repository is a **documentation-first portfolio and index of related research materials** focused on trustworthy AI, AI-agent security, secure autonomous systems, and applied machine learning. It brings together proposal and study documents related to the PACA++ research direction and applied AI themes. It is **not a third, independent software implementation**.
 
-## Repository status
+## How this repository relates to the PACA++ repositories
 
-This repository is intentionally documentation-first and non-runtime. It contains research notes, proposal documents, and portfolio materials, but it does not currently include an executable application, deployment configuration, service endpoints, notebooks, or source code for a running system.
+- **[PACA-Plus-Plus](https://github.com/sanafirdouse2323-glitch/PACA-Plus-Plus)** contains an early runnable authorisation research prototype. Its current prototype uses a small JSON policy format and a simulated protected effect; it does not yet implement the original ALFA/UCON+ compiler integration or real external-tool enforcement.
+- **[PACA-Plus-Plus-New](https://github.com/sanafirdouse2323-glitch/PACA-Plus-Plus-New)** contains an early policy-framework implementation with a policy DSL, parser, compiler, evaluator, and provenance-related components. It should not be described as a production-grade authorisation engine.
+- This portfolio repository gathers research documentation around these themes. Its documents do not constitute an additional executable system.
 
-In other words, this repository is best understood as:
-- academic/research portfolio
-- proposal and study documentation
-- non-runtime documentation
+## Included documentation
 
-It is not currently a software project with live code, tests, or a deployed application.
+### 1. Research proposal: Mechanisms for Enforcing Authorisation and Usage-Control Policies in LLM Agents
 
-## Included work
+A proposal exploring how AI-derived semantic context might be used as bounded evidence while explicit policy evaluation and runtime enforcement remain authoritative. Topics include authorisation, usage-control, obligations, revocation, tool use, and selected formal-analysis methods.
 
-### 1. Mechanisms for Enforcing Authorisation and Usage-Control Policies in LLM Agents
-A doctoral-track research proposal examining how AI-derived semantic context can be integrated with formal runtime enforcement for LLM-based agents.
+### 2. Independent study: AI-Agent Security
 
-### 2. Applied AI, Machine Learning, and Deep Learning Project Report
-A project report summarising applied AI, machine learning, and deep learning work in real-world intelligent systems, data-driven decision support, and NLP-enabled intelligent applications.
+A study of security and responsible-use challenges in tool-using LLM agents, including unsafe delegation, excessive permissions, insufficient policy enforcement, ambiguous task interpretation, and safe execution boundaries.
 
-### 3. AI-Agent Security Study
-An independent study focused on the security and responsible-use challenges associated with tool-using large language model agents and autonomous AI systems.
+### 3. Applied AI, Machine Learning, and Deep Learning project report
 
-## Current scope
+A documentation report describing intended themes and potential application areas across machine learning, deep learning, computer vision, NLP, data analysis, and decision support. It should not be read as evidence of a validated model or completed application unless supported by separate implementation and evaluation.
 
-The current repository structure is intentionally limited to research writing and portfolio documentation. It does not yet include:
-- reproducible code samples
-- Jupyter notebooks
-- unit or integration tests
-- sample pipelines or workflows
-- build or deployment files
-- runtime configuration
-- a production service or API
+## Current scope and limitations
 
-## Technical portfolio extension (planned)
+This repository is intentionally documentation-first and non-runtime. It does not currently provide an executable application, deployment configuration, service endpoints, notebooks, or a running system. The `technical-portfolio/` directory is a placeholder for possible future implementation material.
 
-If this repository is expanded into a stronger technical portfolio, the recommended structure is a separate technical or implementation area that may include:
-- reproducible scripts
-- notebooks
-- tests
-- sample ML or agent pipelines
-- setup and run instructions
-- architecture notes
-- security policy
-- license
+## Related repositories
 
-A reserved placeholder for that work exists in:
-- technical-portfolio/README.md
+- [PACA-Plus-Plus](https://github.com/sanafirdouse2323-glitch/PACA-Plus-Plus)
+- [PACA-Plus-Plus-New](https://github.com/sanafirdouse2323-glitch/PACA-Plus-Plus-New)
+- [Multimodal Disease-Progression Demo](https://github.com/sanafirdouse2323-glitch/multimodal-disease-progression-demo)
+- [Python Machine Learning Practice](https://github.com/sanafirdouse2323-glitch/python-machine-learning-practice)
 
-This section is intentionally a future expansion area and not a claim that executable implementation is already present in the repository.
+## Research themes
 
-## Research interests
-
-- Trustworthy AI
-- AI safety and robustness
-- Secure autonomous systems
-- Policy-aware AI agents
-- Hybrid AI and formal methods
-- Applied AI in healthcare, cybersecurity, and intelligent decision support
-
-## Technical foundation
-
-The conceptual work in this repository is aligned with areas such as:
-- Python
-- machine learning and deep learning
-- computer vision
-- natural language processing
-- data analysis
-- SQL and databases
-- GitHub and reproducible research workflows
-
-## Repository governance
-
-This repository includes:
-- a security policy in SECURITY.md
-- a license in LICENSE
+- Trustworthy AI and AI safety
+- Security of autonomous, tool-using AI agents
+- Policy-aware agent design and runtime enforcement
+- Usage-control and authorisation mechanisms
+- Formal methods for analysing selected policy properties
+- Applied AI in healthcare, cybersecurity, and decision support
 
 ## Contact
 
-- Email: safirdouse2323@gmail.com
-- GitHub: github.com/sanafirdouse2323-glitch
+- Email: sanafirdouse2323@gmail.com
+- GitHub: https://github.com/sanafirdouse2323-glitch
 
 ## Summary
 
-This repository is best described as a documentation-first, non-runtime research portfolio. It is suitable for academic and professional presentation of AI-agent security and trustworthy AI work, and it can be extended into a technical implementation portfolio by adding code, tests, and reproducible workflows in a clearly separated area.
+Use this repository as a **research documentation portfolio** that connects related writing and the PACA++ repositories. Do not count it as a separate software implementation from those repositories. Any claims about implementation, tests, experimental outcomes, or production readiness should be tied to the relevant code repository and its actual verification evidence.
